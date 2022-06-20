@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>
+        Angelito - Full-Stack Web Developer
+    </title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="Website/images/Background/Logo.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="Website/css/font-awesome.min.css">
+
+    <!--Animated headline css-->
+    <!-- <link rel="stylesheet" href="Website/css/jquery.animatedheadline.css"> -->
+
+    <!--Own css-->
+    <link rel="stylesheet" href="Website/css/style.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="Website/css/bootstrap.min.css">
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="Website/fonts/font-awesome/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="Website/fonts/font-awesome/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <body class="banner-area">
+        <nav id="menu" class="navbar navbar-expand-lg" role="navigation">
+            <div class="site-branding navbar-brand">
+                <a class="navbar-brand" href="#">
+                    <img src="Website/images/Background/Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Borinaga
+                </a>
+            </div>
+            <!-- .site-branding -->
+
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-right ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="banner-area" style="height:670px">
+
+        </div>
+
+
+        <!-- Contact area -->
+        <div class="contact-area section-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <i class="fa fa-home"></i>
+                            <h2>Location</h2>
+                            <p>123 Dasma, Cavite</p>
+                            <!--edit here-->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+                            <i class="fa fa-phone"></i>
+                            <h2>Phone: </h2>
+                            <p>+63 975 347 2962</p>
+                            <!--edit here-->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
+                            <i class="fa fa-envelope"></i>
+                            <h2>Email</h2>
+                            <p>borinaga.angelito@gmail.com</p>
+                            <!--edit here-->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-contact text-center wow fadeInDown" data-wow-delay="1s">
+                            <i class="fab fa-gg"></i>
+                            <h2>Social Media: </h2>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/angelito.borinaga1"><i class="fab fa-facebook-messenger"></i></a>
+                                <a href="https://mobile.twitter.com/Borinaga0629"><i class="fab fa-twitter"></i></a>
+                                <a href="https://myaccount.google.com/?utm_source=OGB&amp;tab=kk&amp;utm_medium=act"><i class="fab fa-google-plus"></i></a>
+                                <a href="https://github.com/El2829"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-10 col-md-offset-1 mx-auto">
+                        <form id="contact-form" method="post" action="contact.php" class="wow fadeInDown" data-wow-delay="1.2s">
+
+                            <div class="messages"></div>
+                            <!--you can change the message in contact.php file -->
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn btn-send" value="">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- map -->
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.7611735845003!2d120.97898841431727!3d14.325300587605524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d42c1277faf5%3A0xbb9ead87e3d6a211!2sSan%20Marino%20Circle%20Park!5e0!3m2!1sen!2sph!4v1569838243162!5m2!1sen!2sph"
+                        width="100%" height="650" frameborder="0" style="border:0; margin-bottom: 50px;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Area Starts-->
+
+        <footer id="colophon" class="site-footer footer-area">
+            <div class="site-info">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <p>&copy; Copyright 2020 - All Rights Reserved</p>
+                    <!--edit here-->
+                    <div class="footer-icons">
+
+                        <a href="https://www.facebook.com/angelito.borinaga1"><i class="fab fa-facebook-messenger"></i></a>
+                        <a href="https://mobile.twitter.com/Borinaga0629"><i class="fab fa-twitter"></i></a>
+                        <a href="https://myaccount.google.com/?utm_source=OGB&tab=kk&utm_medium=act"><i class="fab fa-google-plus"></i></a>
+                        <a href="https://github.com/El2829"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="Website/js/jquery-3.4.1.min.js"></script>
+
+        <script src="Website/js/bootstrap.min.js"></script>
+
+        <!-- <script src="Website/js/main.js"></script> -->
+
+        <script src="Website/fonts/font-awesome/js/all.js"></script>
+
+        <!-- #colophon -->
+
+        <!--Bootstrap js-->
+    </body>
+
+</html>
